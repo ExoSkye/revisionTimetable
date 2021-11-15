@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+
+.subject {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.subject-lower {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.subject-upper {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
