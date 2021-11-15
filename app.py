@@ -12,7 +12,7 @@ def get_subject():
     start = datetime.datetime(2021, 11, 14)
 
     with open("static/timetable.csv", "r") as f:
-        j = cur_date.day
+        j = (cur_date - start).days
         for i in range(j):
             f.readline()
 
